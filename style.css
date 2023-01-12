@@ -1,0 +1,31 @@
+/* text style for header */
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.65rem;
+}
+
+/* Hover feature over nav bar links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navr Bar style for layout, links should be aligned with one another using flex */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  justify-content: space-between;
+}
+
+#right {
+  width: 10%;
+}
+
+#right svg {
+  width: 15px;
+  border-radius: 50%;
+}
