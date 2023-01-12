@@ -1,8 +1,10 @@
+/* style for nav bar begins */
+
 /* text style for header */
 a {
   color: black;
   text-decoration: none;
-  font-size: 0.65rem;
+  font-size: 15px;
 }
 
 /* Hover feature over nav bar links */
@@ -17,15 +19,21 @@ a:hover {
   justify-content: space-between;
 }
 
+/* adds space between the two links "about & store */
+
 #left {
   justify-content: space-between;
 }
 
+/* gives the right side nav section a general space for format */
 #right {
-  width: 10%;
+  width: 15%;
 }
 
+/* svg image sizing for spacing */
 #right svg {
-  width: 15px;
+  width: 20px;
   border-radius: 50%;
 }
+
+/* style for nav bar ends */
