@@ -42,11 +42,7 @@ a:hover {
 /* logo height vh stands for `viewport height`  */
 
 #logo {
-  height: 60vh;
-  justify-content: center;
   text-align: center;
-  margin-top: 10vw;
-  margin-bottom: 2vw;
 }
 
 #twobt {
@@ -61,7 +57,7 @@ a:hover {
   margin: auto;
   padding: 2px;
   margin-bottom: 2vw;
-  width: auto;
+  width: 50%;
   max-width: 584px;
 }
 
@@ -79,12 +75,25 @@ a:hover {
 
 
 #bottomright {
-  justify-content: sp;
+  justify-content: space-between;
 }
 
 /* footer style ends */
 
 #googlelogo {
   height: 92px;
+  margin-top: 10vw;
+  margin-bottom: 1.5vw;
+  text-align: center;
+}
 
+#cameralogo {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+#search1{
+  height: 100%;
+  width: 100%;
 }
