@@ -43,18 +43,48 @@ a:hover {
 
 #logo {
   height: 60vh;
-  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10vw;
+  margin-bottom: 2vw;
+}
+
+#twobt {
   justify-content: center;
 }
+
+
+#feild {
+  border-radius: 16px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  margin: auto;
+  padding: 2px;
+  margin-bottom: 2vw;
+  width: auto;
+  max-width: 584px;
+}
+
 
 /* Footer style begins */
 #footer {
   background-color: #f2f2f2;
   width: 100%;
   bottom: 0;
-  height: 10%;
+  height: 8%;
   position: fixed;
   display: flex;
   justify-content: space-between;
 }
+
+
+#bottomright {
+  justify-content: sp;
+}
+
 /* footer style ends */
+
+#googlelogo {
+  height: 92px;
+
+}
