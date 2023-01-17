@@ -43,6 +43,7 @@ a:hover {
 
 #logo {
   text-align: center;
+  padding-top: 200px;
 }
 
 #twobt {
@@ -78,10 +79,10 @@ a:hover {
 /* footer style ends */
 
 #googlelogo {
-  height: 92px;
-  margin-top: 10vw;
-  margin-bottom: 1.5vw;
-  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  padding-top: 30px;
 }
 
 #cameralogo {
