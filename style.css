@@ -17,18 +17,7 @@ a:hover {
 #navbar {
   display: flex;
   justify-content: space-between;
-}
-
-/* adds space between the two links "about & store */
-
-#left {
-  justify-content: flex-start;
-}
-
-/* gives the right side nav section a general space for format */
-#right {
-  width: 15%;
-  justify-content: flex-end;
+  word-spacing: 15px;
 }
 
 /* svg image sizing for spacing */
@@ -37,9 +26,8 @@ a:hover {
   border-radius: 50%;
 }
 
-/* style for nav bar ends */
-
 /* Style for main section begins */
+
 /* logo height vh stands for `viewport height`  */
 
 #logo {
@@ -75,7 +63,7 @@ a:hover {
 }
 
 #bottomright {
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* footer style ends */
@@ -135,4 +123,12 @@ a:hover {
   width: 450px;
   border: transparent;
   font-size: 16px;
+}
+
+#bottomleft {
+  word-spacing: 10px;
+}
+
+#bottomright {
+  word-spacing: 10px;
 }
