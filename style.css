@@ -22,12 +22,13 @@ a:hover {
 /* adds space between the two links "about & store */
 
 #left {
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 /* gives the right side nav section a general space for format */
 #right {
   width: 15%;
+  justify-content: flex-end;
 }
 
 /* svg image sizing for spacing */
@@ -66,10 +67,11 @@ a:hover {
   background-color: #f2f2f2;
   width: 100%;
   bottom: 0;
-  height: 8%;
+  height: 5%;
   position: fixed;
   display: flex;
   justify-content: space-between;
+  text-decoration-color: #f2f2f2;
 }
 
 #bottomright {
@@ -91,7 +93,46 @@ a:hover {
   vertical-align: middle;
 }
 
-#search1 {
-  height: 100%;
-  width: 100%;
+/* icons in search bar */
+#icon {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin: 0.5rem;
+  color: #9aa0a6;
+  fill: currentColor;
+}
+
+/* search bar styling */
+
+#search-area {
+  display: flex;
+  padding: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  max-width: 35rem;
+  margin: auto;
+  margin-bottom: 2vw;
+  width: auto;
+  border-color: #f1f1f1;
+  justify-content: space-between;
+}
+
+/* gives 3d effect when hovering over the search feild */
+#search-area :hover {
+  box-shadow: #6d6f70;
+}
+
+/* Takes away text box border for a seamless effect */
+#search-box:focus {
+  outline: none;
+}
+
+#search-box {
+  height: 34px;
+  background-color: transparent;
+  color: #6d6f70;
+  width: 450px;
+  border: transparent;
+  font-size: 16px;
 }
