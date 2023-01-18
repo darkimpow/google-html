@@ -1,0 +1,99 @@
+/* style for nav bar begins */
+
+/* text style for header */
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Hover feature over nav bar links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navr Bar style for layout, links should be aligned with one another using flex */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* adds space between the two links "about & store */
+
+#left {
+  justify-content: space-between;
+}
+
+/* gives the right side nav section a general space for format */
+#right {
+  width: 15%;
+}
+
+/* svg image sizing for spacing */
+#right svg {
+  width: 20px;
+  border-radius: 50%;
+}
+
+/* style for nav bar ends */
+
+/* Style for main section begins */
+/* logo height vh stands for `viewport height`  */
+
+#logo {
+  text-align: center;
+}
+
+#twobt {
+  justify-content: center;
+}
+
+
+#feild {
+  border-radius: 16px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  margin: auto;
+  padding: 2px;
+  margin-bottom: 2vw;
+  width: 50%;
+  max-width: 584px;
+}
+
+
+/* Footer style begins */
+#footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  bottom: 0;
+  height: 8%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#bottomright {
+  justify-content: space-between;
+}
+
+/* footer style ends */
+
+#googlelogo {
+  height: 92px;
+  margin-top: 10vw;
+  margin-bottom: 1.5vw;
+  text-align: center;
+}
+
+#cameralogo {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+#search1{
+  height: 100%;
+  width: 100%;
+}
